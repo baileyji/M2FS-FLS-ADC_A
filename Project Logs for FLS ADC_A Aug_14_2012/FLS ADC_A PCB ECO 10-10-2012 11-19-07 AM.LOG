@@ -1,0 +1,15 @@
+Change Component DesignItemId : Designator=1's Old DesignItemId=SW-DPDT New DesignItemId=TP3
+Change Component Description : Designator=J8 Old Description=FH12 Series, "Flip-Lock" SMT/ZIF FFC/FPC Connector - 1.0mm Spaced Bottom Standard Contact New Description=
+Change Component Description : Designator=J9 Old Description=FH12 Series, "Flip-Lock" SMT/ZIF FFC/FPC Connector - 1.0mm Spaced Bottom Standard Contact New Description=
+Change Component Description : Designator=J10 Old Description=FH12 Series, "Flip-Lock" SMT/ZIF FFC/FPC Connector - 1.0mm Spaced Bottom Standard Contact New Description=
+Change Component Description : Designator=J11 Old Description=FH12 Series, "Flip-Lock" SMT/ZIF FFC/FPC Connector - 1.0mm Spaced Bottom Standard Contact New Description=
+Change Component Library : Designator=1's Old Library=alanb2.SCHLIB New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=R4 Old Library=FLS ADC_A 20 Jun 2012_1.SCHLIB New Library=FLS ADC_A.SchLib
+Change Net Name : Old Net Name=Net1_1 New Net Name=Net1's_2
+Change Net Name : Old Net Name=Net_F4 New Net Name=NetC7_1
+Change Net Name : Old Net Name=Net_F5 New Net Name=NetC3_1
+Change Net Name : Old Net Name=Net_G4 New Net Name=NetC9_2
+Change Net Name : Old Net Name=Net_G5 New Net Name=NetC12_2
+Change Net Name : Old Net Name=Net_H4 New Net Name=NetC11_2
+Change Net Name : Old Net Name=Net_H5 New Net Name=NetC11_1
+Change Net Name : Old Net Name=NetR8_1 New Net Name=NetR8_2

@@ -1,0 +1,34 @@
+Added Member To Class: ClassName=FLS ADC_ A Member=Component 1's SW-SPDT
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C1 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C2 10uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C3 100 uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C4 10uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C5 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C7 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C9 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C10 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C11 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C12 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C13 10uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C14 10uF
+Added Member To Class: ClassName=PP1 Member=Component C16 100uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C17 10uF
+Added Member To Class: ClassName=PP1 Member=Component C18 100 uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C20 10uF
+Added Member To Class: ClassName=PP1 Member=Component C22 220uF
+Added Member To Class: ClassName=PP1 Member=Component C23 47 uF
+Added Member To Class: ClassName=PP1 Member=Component C24 47uF
+Added Member To Class: ClassName=PP1 Member=Component C25 220uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C26 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component J1 CON4
+Added Member To Class: ClassName=FLS ADC_ A Member=Component J5 RJ-11
+Added Member To Class: ClassName=FLS ADC_ A Member=Component J6 RJ45 - JACK
+Added Member To Class: ClassName=FLS ADC_ A Member=Component J7 RJ45 - JACK
+Added Member To Class: ClassName=PP1 Member=Component J12 CON6
+Added Member To Class: ClassName=FLS ADC_ A Member=Component R4 10K
+Added Member To Class: ClassName=PP1 Member=Component R7 673
+Added Member To Class: ClassName=PP1 Member=Component R8 673
+Added Member To Class: ClassName=FLS ADC_ A Member=Component R9 4K7
+Added Member To Class: ClassName=FLS ADC_ A Member=Component U2 AD9289
+Added Member To Class: ClassName=PP1 Member=Component U5 TPS84410
+Added Member To Class: ClassName=FLS ADC_ A Member=Component U7 MC74VHC1G04DFT2G

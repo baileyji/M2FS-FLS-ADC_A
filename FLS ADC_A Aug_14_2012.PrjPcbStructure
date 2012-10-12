@@ -1,0 +1,4 @@
+Record=SheetSymbol|SourceDocument=FLS ADC_ A.SchDoc|Designator=MAX9153|SchDesignator=MAX9153|FileName=FLS Start_A Distribution.SchDoc|SymbolType=Normal|RawFileName=FLS Start_A Distribution.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=FLS ADC_ A.SchDoc|Designator=MAX9153|SchDesignator=MAX9153|FileName=FLS Clock_A Distribution.SchDoc|SymbolType=Normal|RawFileName=FLS Clock_A Distribution.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=FLS ADC_ A.SchDoc|Designator=PP1|SchDesignator=PP1|FileName=FLS ADC_A POWER SUPPLY.SchDoc|SymbolType=Normal|RawFileName=FLS ADC_A POWER SUPPLY.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=FLS ADC_ A.SchDoc

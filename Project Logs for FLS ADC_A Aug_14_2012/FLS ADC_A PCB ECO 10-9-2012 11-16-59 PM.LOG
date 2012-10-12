@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=GND Pin=Test Point 1-1
+Added Pin To Net: NetName=GND Pin=Test Point 2-1
+Added Pin To Net: NetName=3VCCA/2 Pin=Test Point 3-1
+Added Pin To Net: NetName=5V0 Pin=Test Point 4-1
+Added Pin To Net: NetName=3VCCA Pin=Test Point 5-1
+Added Pin To Net: NetName=3VCCD Pin=Test Point 6-1

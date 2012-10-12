@@ -1,0 +1,45 @@
+Removed Member From Class: ClassName=*.* Member=C4
+Removed Member From Class: ClassName=*.* Member=C7
+Removed Member From Class: ClassName=*.* Member=C13
+Removed Member From Class: ClassName=*.* Member=C14
+Removed Member From Class: ClassName=FLS ADC_ A Member=C15
+Removed Member From Class: ClassName=FLS ADC_ A Member=C19
+Removed Member From Class: ClassName=*.* Member=C20
+Removed Member From Class: ClassName=*.* Member=C21
+Removed Member From Class: ClassName=*.* Member=U1
+Removed Member From Class: ClassName=FLS ADC_ A Member=U6
+Change Component DesignItemId : Designator=J12 Old DesignItemId= New DesignItemId=CON6
+Change Component DesignItemId : Designator=U7 Old DesignItemId= New DesignItemId=MC74VHC1G04DFT1
+Change Component DesignItemId : Designator=R9 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=J6 Old DesignItemId= New DesignItemId=RJ45 - JACK
+Change Component DesignItemId : Designator=J7 Old DesignItemId= New DesignItemId=RJ45 - JACK
+Change Component DesignItemId : Designator=J5 Old DesignItemId= New DesignItemId=RJ-11
+Change Component DesignItemId : Designator=J8 Old DesignItemId=CL586-0535-5 New DesignItemId=SATA PLUG 7POS
+Change Component DesignItemId : Designator=J9 Old DesignItemId=CL586-0535-5 New DesignItemId=SATA PLUG 7POS
+Change Component DesignItemId : Designator=J10 Old DesignItemId=CL586-0535-5 New DesignItemId=SATA PLUG 7POS
+Change Component DesignItemId : Designator=J11 Old DesignItemId=CL586-0535-5 New DesignItemId=SATA PLUG 7POS
+Change Component DesignItemId : Designator=J1 Old DesignItemId=CON3 New DesignItemId=CON4
+Change Component DesignItemId : Designator=J2 Old DesignItemId=CON3 New DesignItemId=CON4
+Change Component DesignItemId : Designator=J3 Old DesignItemId=CON3 New DesignItemId=CON4
+Change Component DesignItemId : Designator=J4 Old DesignItemId=CON3 New DesignItemId=CON4
+Change Component Comment : Designator=J6 Old Comment= New Comment=RJ45 - JACK
+Change Component Comment : Designator=J7 Old Comment= New Comment=RJ45 - JACK
+Change Component Comment : Designator=J5 Old Comment= New Comment=RJ-11
+Change Component Description : Designator=U7 Old Description= New Description=Inverter
+Change Component Description : Designator=J5 Old Description= New Description=RJ-11 6-PIN CONNECTOR
+Change Component Library : Designator=J12 Old Library= New Library=alanb sch 19 Jan 2002.lib
+Change Component Library : Designator=J5 Old Library= New Library=FLS ADC_A 20 Jun 2012_1.SCHLIB
+Change Component Library : Designator=U7 Old Library= New Library=FLS ADC_A 31 July 2012.SCHLIB
+Change Component Library : Designator=J6 Old Library= New Library=FLS ADC_ A.SCHLIB
+Change Component Library : Designator=J7 Old Library= New Library=FLS ADC_ A.SCHLIB
+Change Component Library : Designator=R9 Old Library= New Library=FLS Data Formatter.SCHLIB
+Change Component Library : Designator=U2 Old Library=alanb2.SCHLIB New Library=alanb2 6_21_2012.SCHLIB
+Change Component Library : Designator=J1 Old Library=alanb2.SCHLIB New Library=FLS ADC_A 20 Jun 2012_1.SCHLIB
+Change Component Library : Designator=J2 Old Library=alanb2.SCHLIB New Library=FLS ADC_A 20 Jun 2012_1.SCHLIB
+Change Component Library : Designator=J3 Old Library=alanb2.SCHLIB New Library=FLS ADC_A 20 Jun 2012_1.SCHLIB
+Change Component Library : Designator=J4 Old Library=alanb2.SCHLIB New Library=FLS ADC_A 20 Jun 2012_1.SCHLIB
+Change Component Library : Designator=U5 Old Library=alanb2.SCHLIB New Library=FLS Data Formatter.SCHLIB
+Change Component Library : Designator=U6 Old Library=alanb2.SCHLIB New Library=FLS Data Formatter.SCHLIB
+Change Component Library : Designator=R4 Old Library=C100 UT_ST ISOLATION_AMP_ADC2 Apr 7 2004.lib New Library=FLS ADC_A 20 Jun 2012_1.SCHLIB
+Change Class Name : Old Net Name=*.* New Net Name=PP1
+Added Class: Name=MAX9153

@@ -1,0 +1,10 @@
+Change Component DesignItemId : Designator=J12 Old DesignItemId=CON6 New DesignItemId=CON5
+Change Component Description : Designator=R2 Old Description= New Description=Resistor
+Change Component Description : Designator=R3 Old Description= New Description=Resistor
+Change Component Description : Designator=R9 Old Description= New Description=Resistor
+Change Component Library : Designator=R2 Old Library=* New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=R3 Old Library=* New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=J12 Old Library=alanb sch 19 Jan 2002.lib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=U7 Old Library=FLS ADC_A 31 July 2012.SCHLIB New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=R9 Old Library=FLS Data Formatter.SCHLIB New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=R1 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib

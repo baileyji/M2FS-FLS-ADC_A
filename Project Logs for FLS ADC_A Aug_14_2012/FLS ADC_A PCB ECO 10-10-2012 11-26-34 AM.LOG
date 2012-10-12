@@ -1,0 +1,6 @@
+Change Component Library : Designator=J6 Old Library=FLS ADC_ A.SCHLIB New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=J7 Old Library=FLS ADC_ A.SCHLIB New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=J8 Old Library=HRS FPC-FFC FH12 Series.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=J9 Old Library=HRS FPC-FFC FH12 Series.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=J10 Old Library=HRS FPC-FFC FH12 Series.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=J11 Old Library=HRS FPC-FFC FH12 Series.IntLib New Library=FLS ADC_A.SchLib

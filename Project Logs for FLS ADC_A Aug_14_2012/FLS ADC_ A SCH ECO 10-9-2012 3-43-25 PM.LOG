@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=U7 Old Footprint=419A-01_M New Footprint=419A-01_N
+Change Component Footprint: Designator=R1 Old Footprint=0805 SLIM New Footprint=J1-0603
+Change Component Footprint: Designator=U2 Old Footprint=BGA100P8X8-64A New Footprint=BGA80P8X8-64B
+Change Component Footprint: Designator=J5 Old Footprint=RJ11 - 5555140-1 New Footprint=RJ11 - Vertical
+Change Component Footprint: Designator=J6 Old Footprint=RJ45 8P8C 45* MOD JACK New Footprint=RJ45 Vertical Single
+Change Component Footprint: Designator=J7 Old Footprint=RJ45 8P8C 45* MOD JACK New Footprint=RJ45 Vertical Single
+Change Component Comment: Designator=C15 Old Comment=47 uF New Comment=47uF
+Change Component Comment: Designator=C24 Old Comment=47 uF New Comment=47uF
+Change Component Comment: Designator=C16 Old Comment=100 uF New Comment=100uF
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C5 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C6 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C7 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C8 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C9 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C10 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C11 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C12 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C21 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=C26 Old Comment=Cap New Comment=0.1uF
+Change Component Comment: Designator=U3 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U3 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U3 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U3 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U3 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U4 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U4 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U4 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=U4 Old Comment=LVDS REPEATER New Comment=MAX9153
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=100
