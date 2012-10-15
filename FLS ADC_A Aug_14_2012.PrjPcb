@@ -143,6 +143,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Design Rule Check - FLS ADC_A.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=..\..\alanb libraries\*.*
 IncludeSubFolders=1
