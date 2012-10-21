@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LVDS_CHANNEL_3_N Pin=J7-4
+Removed Pin From Net: NetName=LVDS_CHANNEL_2_N Pin=J7-6
+Added Pin To Net: NetName=LVDS_CHANNEL_2_N Pin=J7-4
+Added Pin To Net: NetName=LVDS_CHANNEL_3_N Pin=J7-6

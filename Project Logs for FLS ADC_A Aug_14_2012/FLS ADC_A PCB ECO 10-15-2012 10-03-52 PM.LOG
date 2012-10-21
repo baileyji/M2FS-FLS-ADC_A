@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SYS_CLK_A_P Pin=J6-4
+Removed Pin From Net: NetName=DATA_CLK_OUT_A_P Pin=J6-6
+Added Pin To Net: NetName=DATA_CLK_OUT_A_P Pin=J6-4
+Added Pin To Net: NetName=SYS_CLK_A_P Pin=J6-6
