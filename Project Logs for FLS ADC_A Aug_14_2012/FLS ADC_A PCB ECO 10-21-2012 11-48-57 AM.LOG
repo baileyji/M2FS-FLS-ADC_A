@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=SYS_CLK_A4_N Pin=U3-23
+Removed Pin From Net: NetName=SYS_CLK_A4_P Pin=U3-24
+Removed Pin From Net: NetName=SYS_CLK_A2_N Pin=U3-27
+Removed Pin From Net: NetName=SYS_CLK_A2_P Pin=U3-28
+Added Pin To Net: NetName=SYS_CLK_A2_N Pin=U3-23
+Added Pin To Net: NetName=SYS_CLK_A2_P Pin=U3-24
+Added Pin To Net: NetName=SYS_CLK_A4_N Pin=U3-27
+Added Pin To Net: NetName=SYS_CLK_A4_P Pin=U3-28
