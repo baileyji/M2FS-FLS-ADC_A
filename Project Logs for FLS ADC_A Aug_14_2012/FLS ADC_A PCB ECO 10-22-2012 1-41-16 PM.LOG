@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SYS_CLK_ADC_A_N Pin=U3-3
+Removed Pin From Net: NetName=SYS_CLK_ADC_A_P Pin=U3-4
+Added Pin To Net: NetName=SYS_CLK_ADC_A_P Pin=U3-3
+Added Pin To Net: NetName=SYS_CLK_ADC_A_N Pin=U3-4

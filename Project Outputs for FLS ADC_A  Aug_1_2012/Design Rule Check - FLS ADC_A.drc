@@ -1,7 +1,14 @@
 Protel Design System Design Rule Check
 PCB File : Z:\Dropbox\M2FS-Dropbox\circuit boards\M2FS FLS ADC_A\FLS ADC_A.PcbDoc
-Date     : 10/21/2012
-Time     : 2:37:39 PM
+Date     : 10/22/2012
+Time     : 6:04:50 PM
+
+Processing Rule : Matched Net Lengths(Tolerance=10mil) (InNetClass('Match Lengths 2'))
+   Violation between Matched Net Lengths Between Net on TopLayer And Net on TopLayer
+Rule Violations :1
+
+Processing Rule : Matched Net Lengths(Tolerance=10mil) (InNetClass('Match Lengths 1'))
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=50.00ohms) (Max=85.00ohms) (Preferred=50.00ohms) (InNetClass('Differential'))
 Rule Violations :0
@@ -9,29 +16,8 @@ Rule Violations :0
 Processing Rule : Maximum Via Count Constraint (Limit=1) (InNetClass('Differential'))
 Rule Violations :0
 
-Processing Rule : Matched Net Lengths(Tolerance=10mil) (InDifferentialPairClass(''))
-   Violation between Matched Net Lengths: Differential Pair DATA_CLK_OUT_A
-   Violation between Matched Net Lengths: Differential Pair FRAME_CLK_OUT_A
-   Violation between Matched Net Lengths: Differential Pair LVDS_CHANNEL_1
-   Violation between Matched Net Lengths: Differential Pair LVDS_CHANNEL_2
-   Violation between Matched Net Lengths: Differential Pair LVDS_CHANNEL_3
-   Violation between Matched Net Lengths: Differential Pair LVDS_CHANNEL_4
-   Violation between Matched Net Lengths: Differential Pair START_A1
-   Violation between Matched Net Lengths: Differential Pair START_A2
-   Violation between Matched Net Lengths: Differential Pair START_A3
-   Violation between Matched Net Lengths: Differential Pair START_A4
-   Violation between Matched Net Lengths: Differential Pair START_A
-   Violation between Matched Net Lengths: Differential Pair SYS_CLK_A1
-   Violation between Matched Net Lengths: Differential Pair SYS_CLK_A2
-   Violation between Matched Net Lengths: Differential Pair SYS_CLK_A3
-   Violation between Matched Net Lengths: Differential Pair SYS_CLK_A4
-   Violation between Matched Net Lengths: Differential Pair SYS_CLK_ADC_A
-   Violation between Matched Net Lengths: Differential Pair SYS_CLK_A
-   Violation between Matched Net Lengths: Differential Pair VIDEO A1
-   Violation between Matched Net Lengths: Differential Pair VIDEO A2
-   Violation between Matched Net Lengths: Differential Pair VIDEO A3
-   Violation between Matched Net Lengths: Differential Pair VIDEO A4
-Rule Violations :21
+Processing Rule : Matched Net Lengths(Tolerance=10mil) (InNetClass('Match Lengths'))
+Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
 Rule Violations :0
@@ -51,13 +37,44 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=3.5mil) (InComponent('U1')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=3.1mil) (InComponent('U2')),(All)
-Rule Violations :0
+Processing Rule : Clearance Constraint (Gap=3.5mil) (InComponent('U2')),(All)
+   Violation between Track (1648mil,1039mil)(1805mil,1039mil)  Mid-Layer 2 and 
+                     Pad U2-E4(1695mil,1023.504mil)  Multi-Layer
+   Violation between Track (1648mil,1039mil)(1805mil,1039mil)  Mid-Layer 2 and 
+                     Pad U2-E6(1757.992mil,1023.504mil)  Multi-Layer
+   Violation between Track (1663.504mil,960.512mil)(1663.504mil,976.908mil)  Mid-Layer 2 and 
+                     Pad U2-F3(1663.504mil,992.008mil)  Multi-Layer
+   Violation between Track (1774mil,943mil)(1774mil,1071mil)  Mid-Layer 2 and 
+                     Pad U2-F7(1789.488mil,992.008mil)  Multi-Layer
+   Violation between Track (1711mil,976mil)(1805mil,976mil)  Mid-Layer 2 and 
+                     Pad U2-G5(1726.496mil,960.512mil)  Multi-Layer
+Rule Violations :5
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: 
    Violation between Un-Routed Net Constraint: 
-Rule Violations :2
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad U6-8 (2012.638,1065.316mil) And Pad U6-9 (2012.638,1100.748mil)
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad U6-9 (2012.638,1100.748mil) And Pad U6-10 (2012.638,1136.182mil)
+   Violation between Un-Routed Net Constraint: Pad U6-11(2025.432mil,1193.268mil)  Multi-Layer
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad U2-E4 (1695,1023.504mil) And Track on layer Mid-Layer 2 (1756.588,1023.504mil)
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Track on layer Mid-Layer 2 (1757.992,1023.504mil) And Pad U2-F7 (1789.488,992.008mil)
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad U2-F2 (1632.008,992.008mil) And Pad U2-E4 (1695,1023.504mil)
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad C18-1 (2149.056,1305mil) And Pad C19-1 (2245.944,1305mil)
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Track on layer Top Layer (1513,990mil) And Pad U2-F2 (1632.008,992.008mil)
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Track on layer Top Layer (1513,990mil) And Pad C2-1 (1560,1270mil)
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad U2-F2 (1632.008,992.008mil) And Pad 1's-1 (1635,625mil)
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad U6-10 (2012.638,1136.182mil) And Pad U6-11 (2025.432,1193.268mil)
+   Violation between Un-Routed Net Constraint: Net 3VCCA Between Pad U2-F7 (1789.488,992.008mil) And Pad U6-8 (2012.638,1065.316mil)
+   Violation between Un-Routed Net Constraint: Net AGND Between Pad U2-E7 (1789.488,1023.504mil) And Track on layer Mid-Layer 2 (1789.488,1039.488mil)
+   Violation between Un-Routed Net Constraint: Net AGND Between Track on layer Mid-Layer 2 (1644.756,1023.504mil) And Pad U2-E3 (1663.504,1023.504mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-D3 (1663.504,1055mil) And Pad U2-D6 (1757.992,1055mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U3-9 (2181.276,836mil) And Pad U3-21 (2206.87,609.622mil)
+Rule Violations :23
 
 Processing Rule : Clearance Constraint (Gap=3.75mil) (All),(All)
 Rule Violations :0
@@ -189,11 +206,18 @@ Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
 Rule Violations :6
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-Rule Violations :0
+   Violation between Net Antennae: Track (1805mil,944mil)(1805mil,1039mil)  Mid-Layer 2
+   Violation between Net Antennae: Track (1711mil,976mil)(1805mil,976mil)  Mid-Layer 2
+   Violation between Net Antennae: Track (1774mil,943mil)(1774mil,1071mil)  Mid-Layer 2
+   Violation between Net Antennae: Track (1774mil,943mil)(1774mil,1071mil)  Mid-Layer 2
+   Violation between Net Antennae: Track (1711mil,1008mil)(1711mil,1072mil)  Mid-Layer 2
+   Violation between Net Antennae: Track (1742mil,978mil)(1742mil,1071mil)  Mid-Layer 2
+   Violation between Net Antennae: Track (1663.504mil,960.512mil)(1663.504mil,976.908mil)  Mid-Layer 2
+Rule Violations :7
 
 Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InNet('AGND')),(InNet('DGND'))
 Rule Violations :0
 
 
-Violations Detected : 74
+Violations Detected : 87
 Time Elapsed        : 00:00:02
