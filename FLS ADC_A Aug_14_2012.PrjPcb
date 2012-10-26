@@ -143,8 +143,104 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document8]
+DocumentPath=outputfile.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [GeneratedDocument1]
+DocumentPath=BOM\Bill of Materials-FLS ADC_A Aug_14_2012.xls
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Design Rule Check - FLS ADC_A.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=NC Drill\FLS ADC_A.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Gerber\FLS ADC_A.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Gerber\FLS ADC_A.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Gerber\FLS ADC_A.G2
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Gerber\FLS ADC_A.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Gerber\FLS ADC_A.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Gerber\FLS ADC_A.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Gerber\FLS ADC_A.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Gerber\FLS ADC_A.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Gerber\FLS ADC_A.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Gerber\FLS ADC_A.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Gerber\FLS ADC_A.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Gerber\FLS ADC_A.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Gerber\FLS ADC_A.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=NC Drill\FLS ADC_A.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Gerber\FLS ADC_A.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Gerber\FLS ADC_A.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=NC Drill\FLS ADC_A.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Pick Place\Pick Place for FLS ADC_A.txt
 DItemRevisionGUID=
 
 [SearchPath1]
