@@ -1,0 +1,518 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 { 
+            font-family : sans-serif;
+            color : white;
+            background-color : #21489e;
+            padding: 0.3em;
+        }
+        body { 
+            font-family : verdana;
+        }
+        td, th {  
+            padding: 0.5em;
+            text-align : center;
+            width : 18%;    
+        }
+        th { 
+            background-color : #A6CAF0;
+        
+        }
+        th.column1, td.column1 { 
+            text-align: left;
+            width : auto; 
+        }
+        table { 
+            width : 100%; 
+        }
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3 {
+            padding-top : 0.1em;
+            padding-bottom : 0.1em;
+            border : 0px solid black;
+            width : auto;
+            vertical-align: top
+        }
+        .front_matter_column1 {
+            text-align : right;
+        }
+        .total_column1, .total_column {
+            font-weight : bold; 
+        }
+        .total_column1 {
+            text-align : right;
+        }
+        .front_matter_column2 {
+            text-align : center;
+        }
+        .front_matter_column3 {
+            text-align : left;
+        }
+        .warning, .error { 
+            color : red;
+            font-weight : bold;
+        }   
+        tr.onmouseout_odd { 
+            background-color : #EEEEE0 
+        }
+        tr.onmouseout_even { 
+            background-color : #F3F3E3   
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+            background-color : lightYellow 
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #008000 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+            
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);     
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {    
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }   
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+            file://C:\Users\Public\Documents\Altium\AD\Templates\AD-rgb_logo_223x64.gif
+        "><h1>Electrical Rule Check Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">10/29/2012</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">11:25:24 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///Z:\Dropbox\M2FS-Dropbox\circuit boards\M2FS FLS ADC_A\Project Outputs for FLS ADC_A  Aug_1_2012\ERC\FLS ADC_A Aug_14_2012.html" class="file"><acronym title="Z:\Dropbox\M2FS-Dropbox\circuit boards\M2FS FLS ADC_A\Project Outputs for FLS ADC_A  Aug_1_2012\ERC\FLS ADC_A Aug_14_2012.html">Z:\Dropbox\M2FS-Dropbox\circuit boards\M2FS FLS ADC_A\Project Outputs for FLS ADC_A  Aug_1_2012\ERC\FLS ADC_A Aug_14_2012.html</acronym></a></td>
+</tr>
+</table>
+<hr><a name="IDARALBK"><table>
+<tr></tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%; font-size: 120%; font-weight: Bold; background-color: #A6CAF0" class="column1">Class</td>
+<td style="width: 35%; font-size: 120%; font-weight: Bold; background-color: #A6CAF0" class="column2">Document</td>
+<td style="width: 50%; font-size: 120%; font-weight: Bold; background-color: #A6CAF0" class="column3">Message</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCA contains Power Pin and Output Port objects (Pin U6-8,Pin U6-9,Pin U6-10,Pin U6-11,Pin U6-12,Pin U6-13,Pin U6-14,Pin U6-38,Pin U6-38,Port 3VCCA)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCA contains Power Pin and Output Port objects (Pin U6-8,Pin U6-9,Pin U6-10,Pin U6-11,Pin U6-12,Pin U6-13,Pin U6-14,Pin U6-38,Port 3VCCA)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCA contains Power Pin and Output Sheet Entry objects (Pin 1's-1,Pin U2-E4,Pin U2-E6,Pin U2-E6,Pin U2-F2,Pin U2-F7,Sheet Entry PP1-3VCCA(Output))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCA contains Power Pin and Output Sheet Entry objects (Pin 1's-1,Pin U2-E4,Pin U2-E6,Pin U2-F2,Pin U2-F7,Sheet Entry PP1-3VCCA(Output))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS Clock_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCD contains Power Pin and Input Port objects (Pin U3-10,Pin U3-22,Port 3VCCD)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS Start_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCD contains Power Pin and Input Port objects (Pin U4-10,Pin U4-22,Port 3VCCD)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCD contains Power Pin and Output Port objects (Pin U5-8,Pin U5-9,Pin U5-10,Pin U5-11,Pin U5-12,Pin U5-13,Pin U5-14,Pin U5-38,Pin U5-38,Port 3VCCD)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCD contains Power Pin and Output Port objects (Pin U5-8,Pin U5-9,Pin U5-10,Pin U5-11,Pin U5-12,Pin U5-13,Pin U5-14,Pin U5-38,Port 3VCCD)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCD contains Power Pin and Output Sheet Entry objects (Pin U7-5,Pin U1-14,Pin U1-14,Pin U1-14,Pin U1-14,Pin U2-C3,Pin U2-C6,Sheet Entry PP1-3VCCD(Output))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">3VCCD contains Power Pin and Output Sheet Entry objects (Pin U7-5,Pin U1-14,Pin U2-C3,Pin U2-C6,Sheet Entry PP1-3VCCD(Output))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">5V0 contains Power Pin and Input Port objects (Pin U5-32,Pin U6-32,Port 5V0)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">5V0 contains Power Pin and Input Port objects (Pin U6-32,Pin U5-32,Port 5V0)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Adding items to hidden net 3VCCD</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Adding items to hidden net GND</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">AGND contains Power Pin and Input Port objects (Pin U6-5,Pin U6-29,Pin U6-33,Pin U6-34,Pin U6-37,Port AGND)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U3 MAX9153 has unused sub-part (6)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U3 MAX9153 has unused sub-part (7)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U3 MAX9153 has unused sub-part (8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U3 MAX9153 has unused sub-part (9)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U3 MAX9153 has unused sub-part (10)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U4 MAX9153 has unused sub-part (5)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U4 MAX9153 has unused sub-part (6)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U4 MAX9153 has unused sub-part (7)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U4 MAX9153 has unused sub-part (8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U4 MAX9153 has unused sub-part (9)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Component U4 MAX9153 has unused sub-part (10)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Floating Power Object DTP at (1435,475)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Floating Power Object PDWN at (1435,445)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS Start_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">Global Power-Object 3VCCD at 625,1025has been reduced to local level by presence of port at 575,1025</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS Clock_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">Global Power-Object 3VCCD at 760,1050has been reduced to local level by presence of port at 710,1050</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Global Power-Object AGND at 835,970has been reduced to local level by presence of port at 785,970</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS Start_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">Global Power-Object GND at 605,820has been reduced to local level by presence of port at 555,820</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS Clock_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">Global Power-Object GND at 755,750has been reduced to local level by presence of port at 705,750</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Global Power-Object GND at 835,980has been reduced to local level by presence of port at 785,980</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS Clock_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">GND contains Power Pin and Input Port objects (Pin U3-6,Pin U3-9,Pin U3-21,Port GND)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS Start_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">GND contains Power Pin and Input Port objects (Pin U4-6,Pin U4-9,Pin U4-21,Port GND)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">GND contains Power Pin and Input Port objects (Pin U5-5,Pin U5-29,Pin U5-33,Pin U5-34,Pin U5-37,Port GND)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net DTP has no driving source (Pin J5-6,Pin U2-H8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetR5_1 has no driving source (Pin R5-1,Pin U5-4)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetR6_1 has no driving source (Pin R6-1,Pin U6-4)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU5_6 contains floating input pins (Pin U5-6)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU5_6 has no driving source (Pin U5-6)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU5_28 contains floating input pins (Pin U5-28)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU5_28 has no driving source (Pin U5-28)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU6_6 contains floating input pins (Pin U6-6)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU6_6 has no driving source (Pin U6-6)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU6_28 contains floating input pins (Pin U6-28)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Net NetU6_28 has no driving source (Pin U6-28)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net PDWN has no driving source (Pin J5-2,Pin R9-2,Pin U2-E8,Pin U7-2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net PLL LOCK_A has no driving source (Pin J5-3,Pin U2-D4)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net START_A_N has no driving source (Pin J6-7,Pin R3-1,Pin U4-8)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net SYS_CLK_A_N has no driving source (Pin J6-5,Pin R2-1,Pin U3-8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS Clock_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">Net SYS_CLK_ADC_A_P has no driving source (Pin U2-C8,Pin U3-3)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A1_N has no driving source (Pin J8-2,Pin U2-F1)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A1_P has no driving source (Pin J8-1,Pin U2-G1)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A2_N has no driving source (Pin J9-2,Pin U2-H3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A2_P has no driving source (Pin J9-1,Pin U2-H2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A3_N has no driving source (Pin J10-2,Pin U2-H6)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A3_P has no driving source (Pin J10-1,Pin U2-H7)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A4_N has no driving source (Pin J11-2,Pin U2-F8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Net VIDEO A4_P has no driving source (Pin J11-1,Pin U2-G8)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Off grid logo1 at 1806.662,803.447</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">Off grid logo2 at 1806.662,733.447</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_ A.SchDoc</td>
+<td style="width: 50%" class="column3">PDWN2 contains Output Pin and Power Pin objects (Pin U4-5,Pin U3-5)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Error</td>
+<td style="width: 35%" class="column2">FLS Clock_A Distribution.SchDoc</td>
+<td style="width: 50%" class="column3">PDWN2 contains Power Pin and Input Port objects (Port PDWN2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Unconnected Pin U5-6 at 1110,595</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Unconnected Pin U5-28 at 1110,615</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Unconnected Pin U6-6 at 1110,1070</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">FLS ADC_A POWER SUPPLY.SchDoc</td>
+<td style="width: 50%" class="column3">Unconnected Pin U6-28 at 1110,1090</td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br></body>
+</html>
