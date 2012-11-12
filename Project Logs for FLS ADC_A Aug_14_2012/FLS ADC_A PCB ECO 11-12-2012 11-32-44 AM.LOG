@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=DATA_CLK_OUT_A_N Pin=J6-3
+Removed Pin From Net: NetName=SYS_CLK_A_N Pin=J6-5
+Removed Pin From Net: NetName=LVDS_CHANNEL_2_N Pin=J7-4
+Removed Pin From Net: NetName=LVDS_CHANNEL_3_N Pin=J7-6
+Added Component: Designator=R11(RESC0805(2012)_L)
+Added Pin To Net: NetName=SYS_CLK_A_N Pin=J6-3
+Added Pin To Net: NetName=DATA_CLK_OUT_A_N Pin=J6-5
+Added Pin To Net: NetName=LVDS_CHANNEL_3_N Pin=J7-4
+Added Pin To Net: NetName=LVDS_CHANNEL_2_N Pin=J7-6
+Added Pin To Net: NetName=AGND Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Member To Class: ClassName=FLS ADC_ A Member=Component R11 Jumper 0805(2012)

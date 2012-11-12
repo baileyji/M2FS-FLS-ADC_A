@@ -1,11 +1,12 @@
 Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
 
+R11        RESC0805(2012)_L        913mil        155mil        913mil        155mil    879.535mil        155mil  T        360.00 Jumper 0805(2012)
 Test Point TP-107                1180mil       1105mil       1175mil       1080mil       1180mil       1105mil  T        180.00 TP-107         
 Test Point TP-107                2453mil       1101mil       2458mil       1126mil       2453mil       1101mil  T        360.00 TP-107         
 Test Point TP-107                1801mil        156mil       1796mil        131mil       1801mil        156mil  T        180.00 TP-107         
 Test Point TP-107                2517mil        158mil       2512mil        133mil       2517mil        158mil  T        180.00 TP-107         
 Test Point TP-107                1066mil        156mil       1061mil        131mil       1066mil        156mil  T        180.00 TP-107         
-Test Point TP-107                1150mil       1559mil       1155mil       1534mil       1150mil       1559mil  B        360.00 TP-107         
+Test Point TP-107                 630mil       1703mil        635mil       1678mil        630mil       1703mil  B        360.00 TP-107         
 R8         J1-0603               1970mil    838.528mil       1970mil    838.528mil       1970mil        809mil  B         90.00 523            
 R9         1206                  2035mil       2073mil       2035mil       2073mil       2035mil   2128.118mil  T        270.00 4K7            
 J6         RJ45_VERTICAL_SINGLE    554.915mil   1161.527mil    391.738mil    971.277mil        553mil       1037mil  T        253.00 RJ45 - JACK    
@@ -63,4 +64,6 @@ U7         419A-01_N             2140mil       1955mil       2140mil       1955m
 logo2      STARFLAKE          -735.28mil      -1095mil       3288mil        332mil    -735.28mil      -1095mil  B        180.00 starflake      
 logo1      STARFLAKE          -735.28mil      -1095mil       3288mil        332mil    -735.28mil      -1095mil  T          0.00 starflake      
 J12        SIP5                  1464mil        158mil       1264mil        158mil       1264mil        158mil  T        360.00 POWER          
+C27        0805_slim             1334mil       1809mil       1379mil       1809mil       1379mil       1809mil  T        180.00 0.1uF          
+R10        V1240W                1198mil       1540mil       1098mil       1590mil       1098mil       1590mil  T          0.00 10K            
 

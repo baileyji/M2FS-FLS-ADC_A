@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=3VCCA/2 Pin=J1-3
+Removed Pin From Net: NetName=3VCCA/2 Pin=J2-3
+Removed Pin From Net: NetName=3VCCA/2 Pin=J3-3
+Removed Pin From Net: NetName=3VCCA/2 Pin=J4-3
+Added Component: Designator=C27(0805 slim)
+Added Component: Designator=R10(V1240W)
+Added Pin To Net: NetName=AGND Pin=C27-1
+Added Pin To Net: NetName=3VCCA Pin=R10-CCW
+Added Pin To Net: NetName=AGND Pin=R10-CW
+Added Pin To Net: NetName=HVCCA/2 Pin=C27-2
+Added Pin To Net: NetName=HVCCA/2 Pin=J1-3
+Added Pin To Net: NetName=HVCCA/2 Pin=J2-3
+Added Pin To Net: NetName=HVCCA/2 Pin=J3-3
+Added Pin To Net: NetName=HVCCA/2 Pin=J4-3
+Added Pin To Net: NetName=HVCCA/2 Pin=R10-W
+Added Net: Name=HVCCA/2
+Added Member To Class: ClassName=FLS ADC_ A Member=Component C27 0.1uF
+Added Member To Class: ClassName=FLS ADC_ A Member=Component R10 10K

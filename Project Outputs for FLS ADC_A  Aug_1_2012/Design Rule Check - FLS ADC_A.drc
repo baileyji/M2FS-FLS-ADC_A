@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : Z:\Dropbox\M2FS-Dropbox\circuit boards\M2FS FLS ADC_A\FLS ADC_A.PcbDoc
-Date     : 10/29/2012
-Time     : 11:21:49 AM
+Date     : 11/12/2012
+Time     : 12:09:56 PM
 
 Processing Rule : Clearance Constraint (Gap=4mil) (OnLayer('Top Layer') or OnLayer('Bottom Layer')),(All)
    Violation between Track (1972.346mil,870.402mil)(2058.598mil,870.402mil)  Bottom Layer and 
@@ -78,13 +78,11 @@ Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (1263mil,78mil)(1324mil,78mil)  Top Layer
-   Violation between Net Antennae: Track (1197mil,78mil)(1263mil,78mil)  Top Layer
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InNet('AGND')),(InNet('GND'))
 Rule Violations :0
 
 
-Violations Detected : 6
-Time Elapsed        : 00:00:03
+Violations Detected : 4
+Time Elapsed        : 00:00:02
