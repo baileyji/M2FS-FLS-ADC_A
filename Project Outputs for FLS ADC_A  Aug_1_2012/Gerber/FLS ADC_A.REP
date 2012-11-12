@@ -99,7 +99,7 @@ Used DCodes :
     D15
     D22
     D23
-    D26
+    D24
     D28
     D29
     D32
@@ -134,7 +134,7 @@ Used DCodes :
     D20
     D22
     D23
-    D26
+    D24
     D28
     D29
     D32
@@ -199,7 +199,7 @@ Used DCodes :
     D20
     D22
     D23
-    D26
+    D24
     D27
     D28
     D29
@@ -261,7 +261,7 @@ Generating : Top Overlay
 
 
 Used DCodes :
-    D26
+    D24
     D28
     D29
     D79
