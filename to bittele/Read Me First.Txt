@@ -1,57 +1,0 @@
-Project Name: FLS ADC_A
-Rev. 2.0
-
-Engineer: Alan Bagish
-phone: 626 808-5429
-alanb@obs.carnegiescience.edu
-Carnegie Institution of Science
-813 Santa Barbara St.
-Pasadena, CA  91101
-
-Contact:
-John (Jeb) Bailey
-University of Michigan Astronomy
-830 Dennison Bldg
-500 Church St
-Ann Arbor, MI 48109
-(734) 389-5143
-
-Billing Address/Contact:
-Mario L Mateo
-934 Dennison Bldg
-500 Church St
-Ann Arbor, MI 48109
-
-FR4 6-layer controlled impedance board
-Differential traces to be 100 Ohm.
-3.4180"W x 2.3397"T -> Includes two radii.
-0.0625 finished thickness
-Surface finish: immersion gold - 2 to 8 u-inches
-minimum hole size 8 mils
-Black solder mask top and bottom
-White silkscreen top and bottom
-via's in pads: yes
-electrical test: yes
-epoxy fill vias under U2, U5, & U6. Elsewhere at Bittele's discretion
-
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [FLS ADC_A.PrjPcb]FLS ADC_A.aprFLS ADC_A.EXTREPFLS ADC_A.G1FLS ADC_A.G2FLS ADC_A.GBLFLS ADC_A.GBOFLS ADC_A.GBPFLS ADC_A.GBSFLS ADC_A.GP1FLS ADC_A.GP2FLS ADC_A.GTLFLS ADC_A.GTOFLS ADC_A.GTPFLS ADC_A.GTSFLS ADC_A.REPFLS ADC_A.RUL
-
-Output: NC Drill
-Type  : txt
-From  : Variant [[No Variations]] of Project [FLS ADC_A.PrjPcb]FLS ADC_A.TXT
-
-Output: Pick and Place Files
-Type  : csv
-From  : Variant [[No Variations]] of Project [FLS ADC_A.PrjPcb]Pick Place for FLS ADC_A.txt
-
-Output: Bill of Materials
-Type  : Excel
-From  : Variant [[No Variations]] of Project [FLS ADC_A.PrjPcb]
-FLS ADC BOM.xlsx
-
-Files Generated   : 19
-Documents Printed : 0
-
-Finished Output Generation At 12:06:55 On 2012-08-14
