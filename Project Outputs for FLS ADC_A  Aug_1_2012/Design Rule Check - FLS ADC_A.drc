@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : Z:\Dropbox\M2FS-Dropbox\circuit boards\M2FS FLS ADC_A\FLS ADC_A.PcbDoc
-Date     : 11/14/2012
-Time     : 2:11:20 PM
+Date     : 3/20/2013
+Time     : 1:29:25 PM
 
 Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InNet('AGND')),(InNet('GND'))
 Rule Violations :0
@@ -73,16 +73,8 @@ Processing Rule : Matched Net Lengths(Tolerance=3mil) (InNetClass('Match Lengths
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=4mil) (OnLayer('Top Layer') or OnLayer('Bottom Layer')),(All)
-   Violation between Track (1045mil,875.315mil)(1106.685mil,875.315mil)  Bottom Layer and 
-                     Pad U5-3(1073.072mil,893.032mil)  Bottom Layer
-   Violation between Track (1045mil,875.315mil)(1106.685mil,875.315mil)  Bottom Layer and 
-                     Pad U5-2(1073.072mil,857.598mil)  Bottom Layer
-   Violation between Track (1972.346mil,870.402mil)(2058.598mil,870.402mil)  Bottom Layer and 
-                     Pad U6-2(2012.638mil,852.716mil)  Bottom Layer
-   Violation between Track (1972.346mil,870.402mil)(2058.598mil,870.402mil)  Bottom Layer and 
-                     Pad U6-3(2012.638mil,888.15mil)  Bottom Layer
-Rule Violations :4
+Rule Violations :0
 
 
-Violations Detected : 4
-Time Elapsed        : 00:00:02
+Violations Detected : 0
+Time Elapsed        : 00:00:03

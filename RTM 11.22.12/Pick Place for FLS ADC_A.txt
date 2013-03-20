@@ -1,0 +1,69 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+R11        RESC0805(2012)_L        913mil        155mil        913mil        155mil    879.535mil        155mil  T        360.00 Jumper 0805(2012)
+Test Point TP-107                1180mil       1105mil       1175mil       1080mil       1180mil       1105mil  T        180.00 TP-107         
+Test Point TP-107                2453mil       1101mil       2458mil       1126mil       2453mil       1101mil  T        360.00 TP-107         
+Test Point TP-107                1801mil        156mil       1796mil        131mil       1801mil        156mil  T        180.00 TP-107         
+Test Point TP-107                2517mil        158mil       2512mil        133mil       2517mil        158mil  T        180.00 TP-107         
+Test Point TP-107                1066mil        156mil       1061mil        131mil       1066mil        156mil  T        180.00 TP-107         
+Test Point TP-107                 630mil       1703mil        635mil       1678mil        630mil       1703mil  B        360.00 TP-107         
+R8         J1-0603               1970mil    838.528mil       1970mil    838.528mil       1970mil        809mil  B         90.00 523            
+R9         1206                  2035mil       2073mil       2035mil       2073mil       2035mil   2128.118mil  T        270.00 4K7            
+J6         RJ45_VERTICAL_SINGLE    554.915mil   1161.527mil    391.738mil    971.277mil        553mil       1037mil  T        253.00 RJ45 - JACK    
+J7         RJ45_VERTICAL_SINGLE   2876.513mil   1196.494mil   2893.505mil   1484.396mil   2796.564mil   1339.733mil  T        107.00 RJ45 - JACK    
+J1         SIP4                   860mil       1935mil        860mil       1785mil        860mil       1785mil  T         90.00 CON4           
+J5         RJ11_-_VERTICAL       1710mil       1910mil       1510mil       1735mil       1585mil       2085mil  T        360.00 RJ-11          
+U4         MAX9153EUI        1154.336mil    727.189mil        988mil        614mil        988mil        614mil  T        270.00 MAX9153        
+U3         MAX9153EUI        2219.665mil    722.811mil       2386mil        836mil       2386mil        836mil  T         90.00 MAX9153        
+U1         DGV014                2210mil       1530mil       2210mil       1530mil   2100.748mil   1577.244mil  T        270.00 SN74AHC08BQ    
+U5         QFN-N39           1247.284mil    999.331mil   1073.071mil    857.599mil   1085.866mil     804.45mil  B         90.00 TPS84410       
+U6         QFN-N39            2186.85mil    994.449mil   2012.638mil    852.716mil   2025.432mil    799.568mil  B         90.00 TPS84410       
+R7         J1-0603               1010mil        860mil       1010mil        860mil       1010mil    830.472mil  B         90.00 523            
+R6         J1-0603               1970mil        940mil       1970mil        940mil       1970mil    910.472mil  B         90.00 348K           
+C16        TC3528-1411           1353mil       1304mil       1353mil       1304mil   1293.944mil       1304mil  B        360.00 100uF          
+C15        TC3528-1411           1141mil       1304mil       1141mil       1304mil   1200.056mil       1304mil  B        180.00 47uF           
+C22        TC3528-1411           1109mil        695mil       1109mil        695mil   1168.056mil        695mil  B        180.00 47uF           
+C23        TC3528-1411           1355mil        695mil       1355mil        695mil   1295.944mil        695mil  B        360.00 220uF          
+C18        TC3528-1411           2090mil       1305mil       2090mil       1305mil   2149.056mil       1305mil  B        180.00 47uF           
+C19        TC3528-1411           2305mil       1305mil       2305mil       1305mil   2245.944mil       1305mil  B        360.00 100uF          
+C25        TC3528-1411           2299mil        700mil       2299mil        700mil   2239.944mil        700mil  B        360.00 220uF          
+C24        TC3528-1411           2087mil        698mil       2087mil        698mil   2146.056mil        698mil  B        180.00 47uF           
+R1         J1-0603               1480mil        985mil       1480mil        985mil       1480mil   1014.528mil  T        270.00 100            
+J4         SIP4                  2585mil       1925mil       2585mil       1775mil       2585mil       1775mil  T         90.00 CON4           
+J3         SIP4                  2295mil       1925mil       2295mil       1775mil       2295mil       1775mil  T         90.00 CON4           
+J2         SIP4                  1150mil       1935mil       1150mil       1785mil       1150mil       1785mil  T         90.00 CON4           
+C14        1206                1712.5mil       1340mil       1645mil       1340mil       1645mil       1340mil  B        360.00 10uF           
+C17        1206                1712.5mil       1270mil       1780mil       1270mil       1780mil       1270mil  B        180.00 10uF           
+C20        1206                1707.5mil        845mil       1775mil        845mil       1775mil        845mil  B        180.00 10uF           
+1's        SIP3                  1735mil        625mil       1635mil        625mil       1635mil        625mil  T        360.00 SW-SPDT        
+R3         J1-0603               1154mil        558mil       1154mil        558mil   1183.528mil        558mil  T        180.00 100            
+R2         J1-0603               2219mil        895mil       2219mil        895mil   2189.472mil        895mil  T        360.00 100            
+R4         V1240W                2120mil        150mil       2020mil        200mil       2120mil        100mil  T          0.00 10K            
+J8         MOLEX_471554001    585.118mil    410.001mil        330mil    410.001mil    435.118mil    390.316mil  T        360.00 SATA PLUG 7POS 
+J9         MOLEX_471554001   1343.372mil    410.001mil   1088.254mil    410.001mil   1193.372mil    390.316mil  T        360.00 SATA PLUG 7POS 
+J10        MOLEX_471554001   2101.628mil    410.001mil   1846.509mil    410.001mil   1951.628mil    390.316mil  T        360.00 SATA PLUG 7POS 
+J11        MOLEX_471554001   2859.882mil    410.001mil   2604.764mil    410.001mil   2709.882mil    390.316mil  T        360.00 SATA PLUG 7POS 
+C2         1206                  1560mil     1337.5mil       1560mil       1270mil       1560mil       1270mil  T         90.00 10uF           
+C4         0805_slim             1480mil       1158mil       1480mil       1203mil       1480mil       1203mil  B        270.00 0.1uF          
+C13        1206                1712.5mil       1410mil       1645mil       1410mil       1645mil       1410mil  B        360.00 10uF           
+C5         0805_slim             1420mil       1035mil       1420mil        990mil       1420mil        990mil  T         90.00 0.1uF          
+C11        0805_slim             1710mil        780mil       1755mil        780mil       1755mil        780mil  T        180.00 0.1uF          
+C7         0805_slim             1360mil        945mil       1360mil        900mil       1360mil        900mil  T         90.00 0.1uF          
+C12        0805_slim             1710mil        720mil       1665mil        720mil       1665mil        720mil  T        360.00 0.1uF          
+C9         0805_slim             1420mil        855mil       1420mil        900mil       1420mil        900mil  T        270.00 0.1uF          
+C21        0805_slim             1710mil        780mil       1665mil        780mil       1665mil        780mil  B        360.00 0.1uF          
+C26        0805_slim             2150mil        150mil       2195mil        150mil       2195mil        150mil  B        180.00 0.1uF          
+C10        0805_slim             1480mil        855mil       1480mil        810mil       1480mil        810mil  T         90.00 0.1uF          
+C3         0805_slim             1855mil       1315mil       1855mil       1360mil       1855mil       1360mil  B        270.00 0.1uF          
+C1         0805_slim             2210mil       1645mil       2165mil       1645mil       2165mil       1645mil  T        360.00 0.1uF          
+R5         J1-0603               1010mil        960mil       1010mil        960mil       1010mil    930.472mil  B         90.00 348K           
+C8         0805_slim             2468mil        692mil       2468mil        737mil       2468mil        737mil  B        270.00 0.1uF          
+C6         0805_slim              872mil        743mil        872mil        788mil        872mil        788mil  B        270.00 0.1uF          
+U2         BGA80P8X8-64B     1710.748mil   1039.252mil   1710.748mil   1039.252mil   1600.512mil   1149.488mil  T        360.00 AD9289         
+U7         419A-01_N             2140mil       1955mil       2140mil       1955mil   2180.354mil    1929.41mil  T        180.00 MC74VHC1G04DFT2G
+logo2      STARFLAKE          -735.28mil      -1095mil       3288mil        332mil    -735.28mil      -1095mil  B        180.00 starflake      
+logo1      STARFLAKE          -735.28mil      -1095mil       3288mil        332mil    -735.28mil      -1095mil  T          0.00 starflake      
+J12        SIP5                  1464mil        158mil       1264mil        158mil       1264mil        158mil  T        360.00 POWER          
+C27        0805_slim             1334mil       1809mil       1379mil       1809mil       1379mil       1809mil  T        180.00 0.1uF          
+R10 - Bias V1240W                1198mil       1540mil       1098mil       1590mil       1098mil       1590mil  T          0.00 10K            
+

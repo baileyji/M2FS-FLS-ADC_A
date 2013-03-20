@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=C15 Old Footprint=0402 New Footprint=1608[0603]
+Change Component Footprint: Designator=C18 Old Footprint=0805 slim outer New Footprint=1608[0603]
+Change Component Footprint: Designator=C22 Old Footprint=0805 slim outer New Footprint=1608[0603]
+Change Component Footprint: Designator=C23 Old Footprint=0805 slim outer New Footprint=1608[0603]
+Change Component Library : Designator=C1 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C3 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C4 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C5 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C6 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C7 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C8 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C9 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C10 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C11 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C12 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C21 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C26 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib
+Change Component Library : Designator=C27 Old Library=Miscellaneous Devices.IntLib New Library=FLS ADC_A.SchLib

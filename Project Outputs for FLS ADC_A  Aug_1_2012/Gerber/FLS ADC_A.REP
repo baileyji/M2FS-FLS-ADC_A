@@ -67,7 +67,7 @@ Generating : Internal Plane 1
 
 Used DCodes :
     D29
-    D39
+    D40
     D53
     D54
     D55
@@ -97,24 +97,24 @@ Generating : Mid-Layer 1
 
 
 Used DCodes :
+    D12
     D13
-    D15
-    D22
-    D23
+    D18
+    D20
     D24
-    D28
+    D26
     D29
+    D30
+    D31
     D32
     D34
-    D41
-    D42
-    D43
-    D44
+    D35
+    D36
+    D38
+    D39
     D45
     D46
-    D47
-    D48
-    D51
+    D52
     D70
     D71
     D72
@@ -131,24 +131,24 @@ Generating : Mid-Layer 2
 
 
 Used DCodes :
+    D12
     D13
-    D15
+    D14
+    D18
     D20
-    D22
-    D23
     D24
-    D28
+    D26
     D29
+    D30
+    D31
     D32
     D34
-    D41
-    D43
-    D44
+    D35
+    D37
+    D38
+    D39
     D45
     D46
-    D47
-    D48
-    D49
     D51
     D52
     D70
@@ -168,7 +168,7 @@ Generating : Internal Plane 2
 
 Used DCodes :
     D29
-    D39
+    D40
     D53
     D54
     D55
@@ -200,17 +200,17 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D11
     D12
     D13
-    D15
+    D14
     D17
+    D18
     D20
     D22
     D23
     D24
+    D26
     D27
-    D28
     D29
     D30
     D31
@@ -220,8 +220,8 @@ Used DCodes :
     D35
     D36
     D37
-    D41
-    D42
+    D38
+    D39
     D43
     D44
     D45
@@ -272,7 +272,7 @@ Generating : Top Overlay
 
 Used DCodes :
     D24
-    D28
+    D26
     D29
     D81
     D103
@@ -320,10 +320,10 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D13
-    D47
-    D50
-    D52
+    D18
+    D32
+    D33
+    D51
     D107
     D108
     D109
@@ -372,15 +372,15 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D13
-    D47
-    D50
-    D52
-    D107
+    D18
+    D32
+    D33
+    D51
     D108
     D109
-    D111
+    D110
     D113
+    D114
     D116
     D118
     D119
@@ -392,7 +392,7 @@ Used DCodes :
     D125
     D126
     D127
-    D131
+    D128
     D132
     D133
     D134
@@ -423,11 +423,11 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D12
+    D13
     D17
-    D22
-    D23
-    D37
-    D41
+    D39
+    D43
     D72
     D73
     D77
@@ -447,6 +447,18 @@ Used DCodes :
     D29
     D103
     D104
-    D106
+    D105
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : FLS ADC_A.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D81
+    D148
 *************************************************************
 

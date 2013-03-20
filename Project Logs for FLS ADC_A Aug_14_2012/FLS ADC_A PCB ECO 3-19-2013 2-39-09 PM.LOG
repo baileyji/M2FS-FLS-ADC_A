@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=5V0 Pin=U5-2
+Added Pin To Net: NetName=3VCCD Pin=U5-4
+Added Pin To Net: NetName=NetC15_1 Pin=U5-5
+Added Pin To Net: NetName=5V0 Pin=U6-2
+Added Pin To Net: NetName=3VCCA Pin=U6-4
+Added Pin To Net: NetName=NetC18_1 Pin=U6-5

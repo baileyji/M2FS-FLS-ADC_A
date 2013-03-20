@@ -70,7 +70,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -86,7 +86,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -160,7 +160,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [GeneratedDocument1]
-DocumentPath=BOM\Bill of Materials-FLS ADC_A Aug_14_2012.xls
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\BOM\Bill of Materials-FLS ADC_A Aug_14_2012.xls
 DItemRevisionGUID=
 
 [GeneratedDocument2]
@@ -168,79 +168,99 @@ DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Design Rule Check - FLS A
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=NC Drill\FLS ADC_A.DRR
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\NC Drill\FLS ADC_A.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerber\FLS ADC_A.EXTREP
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Gerber\FLS ADC_A.G1
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.G1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Gerber\FLS ADC_A.G2
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.G2
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Gerber\FLS ADC_A.GBL
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerber\FLS ADC_A.GBO
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Gerber\FLS ADC_A.GBP
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Gerber\FLS ADC_A.GBS
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Gerber\FLS ADC_A.GP1
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Gerber\FLS ADC_A.GP2
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Gerber\FLS ADC_A.GTL
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Gerber\FLS ADC_A.GTO
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Gerber\FLS ADC_A.GTP
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Gerber\FLS ADC_A.GTS
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=NC Drill\FLS ADC_A.LDP
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Gerber\FLS ADC_A.REP
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\DiffReport\FLS ADC_A.html
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Gerber\FLS ADC_A.RUL
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\DRC\FLS ADC_A.html
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=NC Drill\FLS ADC_A.TXT
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\FootprintComparison\FLS ADC_A.html
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Pick Place\Pick Place for FLS ADC_A.txt
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\NC Drill\FLS ADC_A.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Gerber\FLS ADC_A.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\NC Drill\FLS ADC_A.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\ERC\FLS ADC_A Aug_14_2012.html
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for FLS ADC_A  Aug_1_2012\Pick Place\Pick Place for FLS ADC_A.txt
 DItemRevisionGUID=
 
 [SearchPath1]

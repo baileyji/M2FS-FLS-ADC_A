@@ -1,0 +1,104 @@
+Removed Pin From Net: NetName=3VCCD Pin=C15-1
+Removed Pin From Net: NetName=3VCCA Pin=C18-1
+Removed Pin From Net: NetName=5V0 Pin=C22-1
+Removed Pin From Net: NetName=GND Pin=C22-2
+Removed Pin From Net: NetName=5V0 Pin=C23-1
+Removed Pin From Net: NetName=GND Pin=C23-2
+Removed Pin From Net: NetName=5V0 Pin=C24-1
+Removed Pin From Net: NetName=AGND Pin=C24-2
+Removed Pin From Net: NetName=5V0 Pin=C25-1
+Removed Pin From Net: NetName=AGND Pin=C25-2
+Removed Pin From Net: NetName=GND Pin=R5-2
+Removed Pin From Net: NetName=AGND Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=R7-2
+Removed Pin From Net: NetName=AGND Pin=R8-1
+Removed Pin From Net: NetName=GND Pin=U5-1
+Removed Pin From Net: NetName=GND Pin=U5-5
+Removed Pin From Net: NetName=GND Pin=U5-7
+Removed Pin From Net: NetName=3VCCD Pin=U5-8
+Removed Pin From Net: NetName=3VCCD Pin=U5-9
+Removed Pin From Net: NetName=3VCCD Pin=U5-10
+Removed Pin From Net: NetName=3VCCD Pin=U5-11
+Removed Pin From Net: NetName=3VCCD Pin=U5-12
+Removed Pin From Net: NetName=3VCCD Pin=U5-13
+Removed Pin From Net: NetName=3VCCD Pin=U5-14
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=5V0 Pin=U5-30
+Removed Pin From Net: NetName=5V0 Pin=U5-31
+Removed Pin From Net: NetName=5V0 Pin=U5-32
+Removed Pin From Net: NetName=GND Pin=U5-33
+Removed Pin From Net: NetName=GND Pin=U5-34
+Removed Pin From Net: NetName=3VCCD Pin=U5-36
+Removed Pin From Net: NetName=GND Pin=U5-37
+Removed Pin From Net: NetName=3VCCD Pin=U5-38
+Removed Pin From Net: NetName=AGND Pin=U6-1
+Removed Pin From Net: NetName=AGND Pin=U6-5
+Removed Pin From Net: NetName=AGND Pin=U6-7
+Removed Pin From Net: NetName=3VCCA Pin=U6-8
+Removed Pin From Net: NetName=3VCCA Pin=U6-9
+Removed Pin From Net: NetName=3VCCA Pin=U6-10
+Removed Pin From Net: NetName=3VCCA Pin=U6-11
+Removed Pin From Net: NetName=3VCCA Pin=U6-12
+Removed Pin From Net: NetName=3VCCA Pin=U6-13
+Removed Pin From Net: NetName=3VCCA Pin=U6-14
+Removed Pin From Net: NetName=AGND Pin=U6-29
+Removed Pin From Net: NetName=5V0 Pin=U6-30
+Removed Pin From Net: NetName=5V0 Pin=U6-31
+Removed Pin From Net: NetName=5V0 Pin=U6-32
+Removed Pin From Net: NetName=AGND Pin=U6-33
+Removed Pin From Net: NetName=AGND Pin=U6-34
+Removed Pin From Net: NetName=3VCCA Pin=U6-36
+Removed Pin From Net: NetName=AGND Pin=U6-37
+Removed Pin From Net: NetName=3VCCA Pin=U6-38
+Removed Member From Class: ClassName=PP1 Member=C24
+Removed Member From Class: ClassName=PP1 Member=C25
+Removed Member From Class: ClassName=PP1 Member=R5
+Removed Member From Class: ClassName=PP1 Member=R6
+Removed Member From Class: ClassName=PP1 Member=R7
+Removed Member From Class: ClassName=PP1 Member=R8
+Change Component Footprint: Designator=U5 Old Footprint=QFN-N39 New Footprint=KTT5_6P22X6P86
+Change Component Footprint: Designator=U6 Old Footprint=QFN-N39 New Footprint=KTT5_6P22X6P86
+Change Component Footprint: Designator=C15 Old Footprint=TC3528-1411 New Footprint=0805 slim
+Change Component Footprint: Designator=C16 Old Footprint=TC3528-1411 New Footprint=0805 slim
+Change Component Footprint: Designator=C18 Old Footprint=TC3528-1411 New Footprint=0805 slim
+Change Component Footprint: Designator=C19 Old Footprint=TC3528-1411 New Footprint=0805 slim
+Change Component Footprint: Designator=C22 Old Footprint=TC3528-1411 New Footprint=0805 slim
+Change Component Footprint: Designator=C23 Old Footprint=TC3528-1411 New Footprint=0805 slim
+Change Component Comment : Designator=C15 Old Comment=47uF New Comment=0.1uF
+Change Component Comment : Designator=C18 Old Comment=47uF New Comment=0.1uF
+Change Component Comment : Designator=C22 Old Comment=47uF New Comment=0.1uF
+Change Component Comment : Designator=C16 Old Comment=100uF New Comment=0.1uF
+Change Component Comment : Designator=C19 Old Comment=100uF New Comment=0.1uF
+Change Component Comment : Designator=C23 Old Comment=220uF New Comment=0.1uF
+Change Component Comment : Designator=U5 Old Comment=TPS84410 New Comment=TPS79630_KTT_5
+Change Component Comment : Designator=U6 Old Comment=TPS84410 New Comment=TPS79630_KTT_5
+Added Component: Designator=U5-ALT(TO252-3)
+Added Component: Designator=U6-ALT(TO252-3)
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=5V0 Pin=C22-2
+Added Pin To Net: NetName=AGND Pin=C23-1
+Added Pin To Net: NetName=5V0 Pin=C23-2
+Added Pin To Net: NetName=5V0 Pin=U5-1
+Added Pin To Net: NetName=5V0 Pin=U5-2
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=3VCCD Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-6
+Added Pin To Net: NetName=5V0 Pin=U5-ALT-1
+Added Pin To Net: NetName=3VCCD Pin=U5-ALT-3
+Added Pin To Net: NetName=GND Pin=U5-ALT-FIN
+Added Pin To Net: NetName=5V0 Pin=U6-1
+Added Pin To Net: NetName=5V0 Pin=U6-2
+Added Pin To Net: NetName=AGND Pin=U6-3
+Added Pin To Net: NetName=3VCCA Pin=U6-4
+Added Pin To Net: NetName=AGND Pin=U6-6
+Added Pin To Net: NetName=5V0 Pin=U6-ALT-1
+Added Pin To Net: NetName=3VCCA Pin=U6-ALT-3
+Added Pin To Net: NetName=AGND Pin=U6-ALT-FIN
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=U5-5
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=U6-5
+Added Net: Name=NetC18_1
+Added Member To Class: ClassName=PP1 Member=Component U5-ALT BA30BC0T
+Added Member To Class: ClassName=PP1 Member=Component U6-ALT BA30BC0T

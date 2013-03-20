@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: FLS ADC_A.GBR   11/14/2012  2:20:02 PM
+Gerber File Extension Report For: FLS ADC_A.GBR   11/23/2012  11:19:44 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -18,4 +18,5 @@ Layer Extension     Layer Description
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
 ------------------------------------------------------------------------------------------

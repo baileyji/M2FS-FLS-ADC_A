@@ -1,10 +1,14 @@
-Output: Footprint Comparison Report
-Type  : FootprintComparison
-From  : PCB Document [FLS ADC_A.PcbDoc]
-   Generated File[FLS ADC_A.html]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:12:30 AM On 1/24/2013
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [FLS ADC_A.PcbDoc]
+   Generated File[FLS ADC_A.step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 2:20:17 PM On 11/14/2012
+Finished Output Generation At 11:12:30 AM On 1/24/2013
